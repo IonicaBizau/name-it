@@ -1,7 +1,7 @@
 {
   "name": "name-it",
   "version": "1.0.0",
-  "description": "A project name generator from given keywords.",
+  "description": "Generate project names from given keywords.",
   "main": "lib/index.js",
   "directories": {
     "example": "example"
