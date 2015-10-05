@@ -31,7 +31,7 @@ if (!inputOpt.is_provided) {
 }
 
 var res = NameIt(inputOpt.value);
-if (fullOpt.is_provided) {
+if (!fullOpt.is_provided) {
     res = res._;
 }
 
