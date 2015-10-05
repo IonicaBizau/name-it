@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/name-it/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/name-it#readme"
+  "homepage": "https://github.com/IonicaBizau/name-it#readme",
+  "blah": {
+    "h_img": "http://i.imgur.com/VhsfveB.png"
+  }
 }

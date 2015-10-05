@@ -13,6 +13,8 @@
 <!-- * * * Thanks! * * *                                                    -->
 <!---------------------------------------------------------------------------->
 
+![name-it](http://i.imgur.com/VhsfveB.png)
+
 # `$ name-it` [![Donate now][donate-now]][paypal-donations]
 
 Generate project names from given keywords.
