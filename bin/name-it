@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+
+// Dependencies
+var NameIt = require("../lib")
+  , Logger = require("bug-killer")
+  , Clp = require("clp")
+  , Package = require("../package")
+  ;
+
+// Parse the command line arguments
+var inputOpt = new Clp.Option(["i", "input"], "The input keyword.", "keyword.")
+  , fullOpt = new Clp.Option(["f", "full-dump"], "Dump the full object (by default only the list with the generated names is displayed).")
+  , parser = new Clp({
+        name: "Name-It"
+      , version: Package.version
+      , exe: Package.name
+      , examples: [
+            "name-it -i git"
+        ]
+      , docs_url: Package.homepage
+      , process: true
+    }, [
+        inputOpt
+      , fullOpt
+    ])
+  ;
+
+if (!inputOpt.is_provided) {
+    Logger.log(new Error("The input option is mandatory."));
+    return console.log(parser.displayHelp());
+}
+
+var res = NameIt(inputOpt.value);
+if (fullOpt.is_provided) {
+    res = res._;
+}
+
+console.log(JSON.stringify(res, null, 2));
