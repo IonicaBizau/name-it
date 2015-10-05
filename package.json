@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "description": "Generate project names from given keywords.",
   "main": "lib/index.js",
+  "bin": {
+    "name-it": "./bin/name-it"
+  },
   "directories": {
     "example": "example"
-  },
-  "dependencies": {
-    "is-vowel": "^1.0.0",
-    "last-char": "^1.0.0",
-    "unvowel-last": "^1.1.0",
-    "remove-last-char": "^1.0.0",
-    "double-last": "^1.1.0"
   },
   "devDependencies": {},
   "scripts": {
