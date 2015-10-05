@@ -30,5 +30,14 @@
   "homepage": "https://github.com/IonicaBizau/name-it#readme",
   "blah": {
     "h_img": "http://i.imgur.com/VhsfveB.png"
+  },
+  "dependencies": {
+    "remove-last-char": "^1.0.0",
+    "bug-killer": "^4.0.0",
+    "clp": "^3.0.0",
+    "double-last": "^1.1.0",
+    "unvowel-last": "^1.1.0",
+    "is-vowel": "^1.0.0",
+    "last-char": "^1.0.0"
   }
 }
