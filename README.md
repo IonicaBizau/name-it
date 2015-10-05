@@ -15,26 +15,42 @@
 
 # `$ name-it` [![Donate now][donate-now]][paypal-donations]
 
-A project name generator from given keywords.
+Generate project names from given keywords.
 
 ## Installation
 
-```sh
-$ npm i name-it
-```
-
-### CLI Usage
 You can install the package globally and use it as command line tool:
 
 ```sh
 $ npm i -g name-it
 ```
 
-Then, run `name-it --help` and see what the cli tool can do.
+Then, run `name-it --help` and see what the CLI tool can do.
+
+```sh
+$ name-it --help
+Usage: name-it [options]
+
+Options:
+  -i, --input <keyword.>  The input keyword.                            
+  -f, --full-dump         Dump the full object (by default only the list
+                          with the generated names is displayed).       
+  -h, --help              Displays this help.                           
+  -v, --version           Displays version information.                 
+
+Examples:
+  name-it -i git
+
+Documentation can be found at https://github.com/IonicaBizau/name-it#readme
+```
 
 ## Example
 
-Here is an example how to use this package as library.
+Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
+
+```sh
+$ npm i name-it
+```
 
 ```js
 // Dependencies
@@ -77,15 +93,15 @@ console.log(NameIt("name"));
 
 ```
 
-## Press Highlights
-None yet. If you wrote or found an article about this project, [add it][contributing] in this section.  :memo:
-
 ## Documentation
 
 For full API reference, see the [DOCUMENTATION.md][docs] file.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
+
+## Press Highlights
+None yet. If you wrote or found an article about this project, [add it][contributing] in this section.  :memo:
 
 ## License
 [KINDLY][license] © [Ionică Bizău][website]–The [LICENSE](/LICENSE) file contains
