@@ -1,29 +1,33 @@
+
 [![name-it](http://i.imgur.com/VhsfveB.png)](#)
 
 # `$ name-it` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/name-it.svg)](https://www.npmjs.com/package/name-it) [![Downloads](https://img.shields.io/npm/dt/name-it.svg)](https://www.npmjs.com/package/name-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Generate project names from given keywords.
 
-## Installation
+## :cloud: Installation
 
 You can install the package globally and use it as command line tool:
+
 
 ```sh
 $ npm i -g name-it
 ```
 
+
 Then, run `name-it --help` and see what the CLI tool can do.
 
-```sh
+
+```
 $ name-it --help
 Usage: name-it [options]
 
 Options:
-  -i, --input <keyword.>  The input keyword.                            
+  -i, --input <keyword.>  The input keyword.
   -f, --full-dump         Dump the full object (by default only the list
-                          with the generated names is displayed).       
-  -h, --help              Displays this help.                           
-  -v, --version           Displays version information.                 
+                          with the generated names is displayed).
+  -h, --help              Displays this help.
+  -v, --version           Displays version information.
 
 Examples:
   name-it -i git
@@ -31,13 +35,16 @@ Examples:
 Documentation can be found at https://github.com/IonicaBizau/name-it#readme
 ```
 
-## Example
+## :clipboard: Example
+
 
 Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
 
 ```sh
 $ npm i --save name-it
 ```
+
+
 
 ```js
 // Dependencies
@@ -79,19 +86,20 @@ console.log(NameIt("name"));
 // , o: 'namo' }
 ```
 
-## Documentation
+## :memo: Documentation
 
 For full API reference, see the [DOCUMENTATION.md][docs] file.
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`namly`](https://github.com/IonicaBizau/namly#readme)
 
-## License
+ - [`namly`](https://github.com/IonicaBizau/namly#readme)—A tool for helping you to choose npm package names.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
