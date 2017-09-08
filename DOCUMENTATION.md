@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Generates names for input keywords.
 
 #### Params
+
 - **String** `input`: The keyword to generate names for.
 
 #### Return
@@ -18,6 +19,7 @@ Generates names for input keywords.
 Adds the `y` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -27,6 +29,7 @@ Adds the `y` suffix.
 Adds the `er` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -36,6 +39,7 @@ Adds the `er` suffix.
 Adds the `two` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -45,6 +49,7 @@ Adds the `two` suffix.
 Adds the `ify` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -54,6 +59,7 @@ Adds the `ify` suffix.
 Adds the `it` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -63,6 +69,7 @@ Adds the `it` suffix.
 Adds the `js` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -72,6 +79,7 @@ Adds the `js` suffix.
 Adds the `ous` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -81,6 +89,7 @@ Adds the `ous` suffix.
 Adds the `ly` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -90,6 +99,7 @@ Adds the `ly` suffix.
 Adds the `ance` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -99,6 +109,7 @@ Adds the `ance` suffix.
 Adds the `oid` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -108,6 +119,7 @@ Adds the `oid` suffix.
 Adds the `ient` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -117,6 +129,7 @@ Adds the `ient` suffix.
 Adds the `ent` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -126,6 +139,7 @@ Adds the `ent` suffix.
 Adds the `onin` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -135,6 +149,7 @@ Adds the `onin` suffix.
 Adds the `oxin` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
@@ -144,6 +159,7 @@ Adds the `oxin` suffix.
 Adds the `o` suffix.
 
 #### Params
+
 - **String** `input`: The input keyword.
 
 #### Return
